@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables & Secrets (CRITICAL)
+.env
+**/.env
+*.env
+.env.local
+.env.*.local
+
+# Python cache & virtual environments
+__pycache__/
+**/*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# SQLite & Runtime databases
+*.db
+*.sqlite
+*.sqlite3
+backend/campaign.db
+
+# OS / Editor files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# React build
+frontend/build/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
